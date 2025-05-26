@@ -5,6 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/dark"
     tools:context=".MainActivity">
 
     <TextView
@@ -15,6 +16,7 @@
         android:layout_marginTop="24dp"
         android:fontFamily="@font/patrick_hand"
         android:text="Notes"
+        android:textColor="@color/latte"
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
@@ -24,7 +26,7 @@
         android:id="@+id/notesRecycler"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginTop="72dp"
+        android:layout_marginTop="64dp"
         android:contentDescription="Notes"
         android:padding="24dp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -39,12 +41,12 @@
         android:layout_alignParentBottom="true"
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="16dp"
-        android:backgroundTint="@color/orange"
+        android:backgroundTint="@color/latte"
         android:contentDescription="Add a Note"
         android:src="@drawable/baseline_add_24"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:tint="@color/white" />
+        app:tint="@color/stone" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
